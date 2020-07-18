@@ -9,19 +9,36 @@ From the basic Network creation until its administration through Linux firewalls
 
 ![](docker.png)
 
-## Installation
+## Under the Hood
+
+# Docker Networking
+
+Starging a new Docker Image:
+
+```
+docker run -ti --net=host ubuntu:16.04 bash
+```
+
+Adding Bridge-utils through apt-get:
+
+```
+apt-get update && apt-get install bridge-utils
+```
+
+Creating a brand new Network:
+
+```
+docker network create my-new-network
+```
+
+Bridge Command:
+
+```
+brctl show
+```
+
 
 OS X & Linux:
-
-```sh
-to be updated soon
-```
-
-Windows:
-
-```sh
-to be updated soon
-```
 
 ## Usage example
 
