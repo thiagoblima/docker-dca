@@ -1,0 +1,5 @@
+Docker: The Basics
+Frequently Asked Questions
+
+Q: I can't use the nano editor on Windows
+A: You'll need to install another plaintext editor, such as Vim, which is available at http://www.vim.org/download.php#pc.
