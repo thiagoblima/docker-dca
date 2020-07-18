@@ -5,6 +5,30 @@ From the basic Network creation until its administration through Linux firewalls
 
 ![](docker.png)
 
+## The Docker Flow: Images to Container
+
+### Creating a container through the image:
+
+Container creation:
+
+```
+docker run -ti ubuntu:latest bash
+```
+
+Exhibiting the container's info:
+
+```
+cat /etc/lsb-release
+
+Result:
+
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=20.04
+DISTRIB_CODENAME=focal
+DISTRIB_DESCRIPTION="Ubuntu 20.04 LTS"
+
+```
+
 ## Under the Hood
 
 ### Docker Networking
