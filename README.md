@@ -11,7 +11,7 @@ From the basic Network creation until its administration through Linux firewalls
 
 ## Under the Hood
 
-# Docker Networking
+### Docker Networking
 
 Starging a new Docker Image:
 
