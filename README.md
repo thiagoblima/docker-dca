@@ -1,5 +1,5 @@
 # Docker Helper
-> A Docker experiments repository for general purpose.
+> A Docker studying and experiments repository written for general purpose and knowledge spreading.
 
 From the basic Network creation until its administration through Linux firewalls bridge.
 
