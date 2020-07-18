@@ -41,6 +41,20 @@ d4ebdfb63526: "bash"
 f63e60e1364d: "/bin/sh -c /app/sta…"
 ```
 
+### Docker PS options
+
+First simple and most commonly used:
+
+```
+docker ps
+
+expected result:
+
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS              PORTS                    NAMES
+d4ebdfb63526        ubuntu                      "bash"                   21 hours ago        Up 21 hours                                  magical_ellis
+f63e60e1364d        prismagraphql/prisma:1.12   "/bin/sh -c /app/sta…"   5 weeks ago         Up 2 weeks          0.0.0.0:4466->4466/tcp   prisma-graphql_prisma_1
+```
+
 ## Under the Hood
 
 ### Docker Networking
