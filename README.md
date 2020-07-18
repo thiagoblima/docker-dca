@@ -86,26 +86,18 @@ docker run -ti --rm --net=host --privileged=true  --pid=host ubuntu  bash
 kill pid
 ```
 
-
-
-
 OS X & Linux:
 
 ## Usage example
 
 
-Thisnis going to be updated very soon and it will bring lots of nice examples of Docker networking.
+This is going to be updated very soon and it will bring lots of nice examples of Docker networking.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
-This is going to have all the dependencies and directions in order to follow the examples.
-
-```sh
-make install
-npm test
-```
+All that you need to follow the given examples above is to have Docker properly set on your OS.
 
 ## Release History
 
