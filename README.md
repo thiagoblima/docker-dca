@@ -29,6 +29,18 @@ DISTRIB_DESCRIPTION="Ubuntu 20.04 LTS"
 
 ```
 
+Having a lookt at the containers through the terminal:
+
+```
+docker ps --format "{{.ID}}: {{.Command}}"
+
+Result:
+
+ed33a850ca43: "bash"
+d4ebdfb63526: "bash"
+f63e60e1364d: "/bin/sh -c /app/sta…"
+```
+
 ## Under the Hood
 
 ### Docker Networking
