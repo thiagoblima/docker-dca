@@ -120,7 +120,7 @@ Thiago Lima
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/thiagoblima/docker-helper/LICENSE](https://github.com/thiagoblima/docker-helper/LICENSE)
 
 ## Contributing
 
