@@ -55,6 +55,23 @@ d4ebdfb63526        ubuntu                      "bash"                   21 hour
 f63e60e1364d        prismagraphql/prisma:1.12   "/bin/sh -c /app/sta…"   5 weeks ago         Up 2 weeks          0.0.0.0:4466->4466/tcp   prisma-graphql_prisma_1
 ```
 
+Showing the latest service started through Docker ps:
+
+```
+docker ps -l --format=$FORMAT
+
+expected result:
+
+ID	c967ca0da755
+IMAGE	ubuntu:latest
+COMMAND	"bash"
+CREATED	5 minutes ago
+STATUS	Exited (129) 5 minutes ago
+PORTS	
+NAMES	hardcore_banzai
+```
+
+
 ## Under the Hood
 
 ### Docker Networking
