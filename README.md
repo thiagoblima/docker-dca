@@ -87,7 +87,10 @@ Killing a container by its Pid:
 
 ```
 docker run -ti --rm --net=host --privileged=true  --pid=host ubuntu  bash
+kill pid
 ```
+
+
 
 
 OS X & Linux:
