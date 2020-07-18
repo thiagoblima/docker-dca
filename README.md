@@ -133,7 +133,30 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
-All that you need to follow the given examples above is to have Docker properly set on your OS.
+First of all it's important to set the `$FORMAT` variable on your OS. To do so, follow the two steps:
+
+* 1 - On your command line terminal: 
+
+```
+source /path/to/the/file/reformat.sh
+```
+
+* 2 - Test it by running on your command line terminal:
+
+```
+echo $FORMAT 
+
+Result expected:
+
+ID	{{.ID}}
+IMAGE	{{.Image}}
+COMMAND	{{.Command}}
+CREATED	{{.RunningFor}}
+STATUS	{{.Status}}
+PORTS	{{.Ports}}
+NAMES	{{.Names}}
+
+```
 
 ## Release History
 
