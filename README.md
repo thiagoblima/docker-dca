@@ -120,7 +120,7 @@ Thiago Lima
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/thiagoblima/docker-helper/LICENSE](https://github.com/thiagoblima/docker-helper/LICENSE)
+[https://github.com/thiagoblima/docker-helper/blob/master/LICENSE](https://github.com/thiagoblima/docker-helper/blob/master/LICENSE)
 
 ## Contributing
 
