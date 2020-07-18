@@ -69,6 +69,26 @@ Running a new image | container:
 docker run -ti --rm -p 8080:8080 ubuntu bash  
 ```
 
+### Docker Processes and cgroups
+
+Creating Container: 
+
+```
+docker run -ti --rm --name hello ubuntu bash 
+```
+
+Inspecting Docker Container ID:
+
+```
+docker inspect --format '{{.State.Pid}}' hello
+```
+
+Killing a container by its Pid:
+
+```
+docker run -ti --rm --net=host --privileged=true  --pid=host ubuntu  bash
+```
+
 
 OS X & Linux:
 
