@@ -37,7 +37,7 @@ Bridge Command:
 brctl show
 ```
 
-### Docker Firewall / Linux iptables
+### Docker Firewall | Linux iptables
 
 Adding a new image:
 
@@ -63,7 +63,7 @@ Running iptables:
 iptables -n -L -t nat
 ```
 
-Running a new image/container:
+Running a new image | container:
 
 ```
 docker run -ti --rm -p 8080:8080 ubuntu bash  
