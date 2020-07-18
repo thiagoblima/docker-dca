@@ -37,6 +37,38 @@ Bridge Command:
 brctl show
 ```
 
+### Docker Firewall / Linux iptables
+
+Adding a new image:
+
+```
+docker run -ti --rm --net=host --privileged=true  ubuntu  bash
+```
+
+Updating Linux:
+
+```
+apt-get update
+```
+
+Installing iptables:
+
+```
+apt-get install i-tables
+```
+
+Running iptables: 
+
+```
+iptables -n -L -t nat
+```
+
+Running a new image/container:
+
+```
+docker run -ti --rm -p 8080:8080 ubuntu bash  
+```
+
 
 OS X & Linux:
 
