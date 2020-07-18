@@ -7,7 +7,7 @@
 
 From the basic Network creation until its administration through Linux firewalls bridge.
 
-![](dokcer.png)
+![](docker.png)
 
 ## Installation
 
