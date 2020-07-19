@@ -71,6 +71,42 @@ PORTS
 NAMES	hardcore_banzai
 ```
 
+### Docker Commit 
+
+Creatinbg a new container:
+
+```
+docker run -ti --name=my-image  ubuntu:latest bash 
+```
+
+Checking out the created container in another terminal window:
+
+```
+docker ps -l --format=$FORMAT
+```
+
+Creating a new file:
+
+```
+mkdir development
+cd development
+touch server.js
+```
+
+Listing create file:
+
+```
+ls -lsa
+```
+
+Commiting the changes made:
+
+```
+docker commit ID
+
+expected result:
+sha256:49df31330335713db87a3a54f92b395df90399ef0f809bd05a62a3eab8d77c0c
+```
 
 ## Under the Hood
 
