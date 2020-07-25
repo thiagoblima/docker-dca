@@ -41,6 +41,14 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
 ```
 
+### Add the Docker repository to apt
+```
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+```
+
 ## The Docker Flow: Images to Container
 
 ### Creating a container through the image:
