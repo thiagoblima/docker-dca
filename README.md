@@ -55,6 +55,12 @@ sudo add-apt-repository \
 sudo apt-get update
 ```
 
+### Install a specific version of Docker
+
+```
+sudo apt-get install docker-ce=17.12.0~ce-0~ubuntu
+```
+
 ## The Docker Flow: Images to Container
 
 ### Creating a container through the image:
