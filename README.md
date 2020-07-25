@@ -61,6 +61,25 @@ sudo apt-get update
 sudo apt-get install docker-ce=17.12.0~ce-0~ubuntu
 ```
 
+
+### Install a specific version of Docker
+
+```
+sudo apt-get install docker-ce=17.12.0~ce-0~ubuntu
+```
+
+### Make sure that the Docker group is already added
+
+```
+sudo groupadd docker
+```
+
+### Add your username to the Docker group
+
+```
+sudo usermod -aG docker $USER
+```
+
 ## The Docker Flow: Images to Container
 
 ### Creating a container through the image:
