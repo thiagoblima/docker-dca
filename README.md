@@ -49,6 +49,12 @@ sudo add-apt-repository \
    stable"
 ```
 
+## Re-Update the apt package index now that we have the Docker repositories added
+
+```
+sudo apt-get update
+```
+
 ## The Docker Flow: Images to Container
 
 ### Creating a container through the image:
