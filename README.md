@@ -242,6 +242,12 @@ UID   PID  PPID   C STIME   TTY           TIME CMD
     0    91     1   0  3:24PM ??         0:01.15 /usr/libexec/UserEventAgent (System)
 ```
 
+Listing all the IP (Internet Protocol):
+
+```
+ip addr
+```
+
 ## Release History
 
 * 0.2.1
