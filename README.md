@@ -225,6 +225,23 @@ NAMES	{{.Names}}
 
 ```
 
+## Linux processes check
+
+### Processes
+
+Listing internel OS Linux processes:
+
+```
+ps -ef
+
+Result:
+
+UID   PID  PPID   C STIME   TTY           TIME CMD
+    0     1     0   0  3:24PM ??         0:11.62 /sbin/launchd
+    0    90     1   0  3:24PM ??         0:00.60 /usr/sbin/syslogd
+    0    91     1   0  3:24PM ??         0:01.15 /usr/libexec/UserEventAgent (System)
+```
+
 ## Release History
 
 * 0.2.1
