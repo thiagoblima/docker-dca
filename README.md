@@ -247,6 +247,11 @@ Listing all the IP (Internet Protocol):
 ```
 ip addr
 ```
+OR
+
+```
+/sbin/ifconfig 
+```
 
 ## Release History
 
