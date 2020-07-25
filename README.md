@@ -5,6 +5,16 @@ From the basic Network creation until its administration through Linux firewalls
 
 ![](docker.png)
 
+## Basic Docker instalation installation environment in a Linux Kernel Distribution
+
+```
+sudo apt-get install \ 
+apt-transport -https \
+ca-certificates \
+curl \
+software-properties-common
+```
+
 ## The Docker Flow: Images to Container
 
 ### Creating a container through the image:
