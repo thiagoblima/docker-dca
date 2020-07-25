@@ -5,7 +5,7 @@ From the basic Network creation until its administration through Linux firewalls
 
 ![](docker.png)
 
-## Basic Docker instalation installation environment in a Linux Kernel Distribution
+## Basic Docker installation environment in a Linux Kernel Distribution
 
 ### Uninstall Docker 
 
