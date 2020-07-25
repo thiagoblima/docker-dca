@@ -7,12 +7,32 @@ From the basic Network creation until its administration through Linux firewalls
 
 ## Basic Docker instalation installation environment in a Linux Kernel Distribution
 
+### Uninstall Docker 
+
+```
+sudo apt-get remove docker docker-engine docker-ce docker.io
+```
+
+### Update the apt package index
+
+```
+sudo apt-get update
+```
+
+### Allow apt to use a repository over HTTPS
+
 ```
 sudo apt-get install \ 
 apt-transport -https \
 ca-certificates \
 curl \
 software-properties-common
+```
+
+### Add Docker’s official GPG key to apt
+
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 
 ## The Docker Flow: Images to Container
