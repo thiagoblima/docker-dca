@@ -61,13 +61,6 @@ sudo apt-get update
 sudo apt-get install docker-ce=17.12.0~ce-0~ubuntu
 ```
 
-
-### Install a specific version of Docker
-
-```
-sudo apt-get install docker-ce=17.12.0~ce-0~ubuntu
-```
-
 ### Make sure that the Docker group is already added
 
 ```
