@@ -3,7 +3,7 @@
 
 From the basic Network creation until its administration through Linux firewalls bridge.
 
-![](docker.png)
+![](assets/docker.png)
 
 ## Play with Dokcer (PWD)
 
