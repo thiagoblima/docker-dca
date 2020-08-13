@@ -287,7 +287,7 @@ source /path/to/the/file/reformat.sh
 ```
 echo $FORMAT 
 
-Result expected:
+Expectesd result:
 
 ID	{{.ID}}
 IMAGE	{{.Image}}
