@@ -352,7 +352,7 @@ REPOSITORY             TAG                 IMAGE ID            CREATED          
 alpine                 latest              a24bb4013296        1 minute ago        5.57MB
 ```
 
-Adding a tag to a specific image:
+Adding a tag to a specific image (two parms *IMAGE ID* and *TAG NAME*):
 
 ```
 docker tag a24 hub1
