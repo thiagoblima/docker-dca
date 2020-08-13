@@ -397,6 +397,12 @@ In case you`ve got multiple tags for this image, you may need to force its delet
 docker image rm a24 -f
 ```
 
+Pulling the iage from Docker Hub again:
+
+```
+docker pull hub1/alpine:1
+```
+
 ## Release History
 
 * 0.2.1
