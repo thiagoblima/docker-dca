@@ -458,8 +458,15 @@ expected result:
 
 ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS      ENGINE VERSION
 vih0ywzgzyknt4ujzf1918dog *   DOCKER-MCH          Ready               Active              Leader              56.04.44
+```
+
+Adding a Adding another worker or leader:
 
 ```
+docker swarm join-token <ARGUMENT>
+```
+
+> basically it might be a leader or worker
 
 ## Release History
 
