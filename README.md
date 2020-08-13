@@ -381,6 +381,10 @@ Pushing to Docker Hub:
 docker push hub1/alpine
 ```
 
+If everything went well you should able to see:
+
+> 50644c29ef5a: Pushed
+
 ## Release History
 
 * 0.2.1
