@@ -287,7 +287,7 @@ source /path/to/the/file/reformat.sh
 ```
 echo $FORMAT 
 
-Expectesd result:
+expected result:
 
 ID	{{.ID}}
 IMAGE	{{.Image}}
@@ -308,7 +308,7 @@ Listing internel OS Linux processes:
 ```
 ps -ef
 
-Result:
+expected result:
 
 UID   PID  PPID   C STIME   TTY           TIME CMD
     0     1     0   0  3:24PM ??         0:11.62 /sbin/launchd
@@ -346,7 +346,7 @@ Check for the existing images:
 ```
 docker images
 
-Expected result:
+expected result:
 
 REPOSITORY             TAG                 IMAGE ID            CREATED             SIZE
 alpine                 latest              a24bb4013296        1 minute ago        5.57MB
@@ -367,7 +367,7 @@ Testing tag created:
 ```
 docker images
 
-Expected result:
+expected result:
 
 REPOSITORY             TAG                 IMAGE ID            CREATED             SIZE
 hub1/alpine            1                   a24bb4013296        2 months ago        5.57MB
@@ -441,14 +441,25 @@ cp -R swarm /tmp
 systemctl start docker
 ```
 
-## Dokcer Swarm
+## Docker Swarm
 
-Initializing a new manager
+Initializing a new manager:
 
 ```
 docker swarm init
 ```
 
+Checking the crated manager:
+
+```
+docker node ls
+
+expected result:
+
+ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS      ENGINE VERSION
+vih0ywzgzyknt4ujzf1918dog *   DOCKER-MCH          Ready               Active              Leader              56.04.44
+
+```
 
 ## Release History
 
