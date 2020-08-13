@@ -418,6 +418,12 @@ systemctl status docker
 sudo systemctl disable docker
 ```
 
+> running Docker Deamon
+
+```
+sudo systemctl enable docker
+```
+
 ## Release History
 
 * 0.2.1
