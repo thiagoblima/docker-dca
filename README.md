@@ -385,6 +385,18 @@ If everything went well you should able to see:
 
 > 50644c29ef5a: Pushed
 
+Deleting the image locally:
+
+```
+docker image rm a24
+```
+
+In case you`ve got multiple tags for this image, you may need to force its deletion:
+
+```
+docker image rm a24 -f
+```
+
 ## Release History
 
 * 0.2.1
