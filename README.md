@@ -329,10 +329,16 @@ OR
 
 ## Docker Hub
 
-### Login into Docker Hub account 
+Login into Docker Hub account:
 
 ```
 docker login
+```
+
+Pulling an image from `Dokcer Hub`:
+
+```
+docker pull alpine
 ```
 
 ## Release History
