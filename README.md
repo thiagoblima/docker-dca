@@ -362,6 +362,19 @@ docker tag a24 hub1/alpine:3
 
 > Notice you only need to have the only first three digits of the Image ID
 
+Testing tag created:
+
+```
+docker images
+
+Expected result:
+
+REPOSITORY             TAG                 IMAGE ID            CREATED             SIZE
+hub1/alpine            1                   a24bb4013296        2 months ago        5.57MB
+hub1/alpine            2                   a24bb4013296        2 months ago        5.57MB
+hub1/alpine            3                   a24bb4013296        2 months ago        5.57MB
+```
+
 ## Release History
 
 * 0.2.1
