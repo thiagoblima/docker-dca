@@ -327,9 +327,9 @@ OR
 /sbin/ifconfig 
 ```
 
-## Dockerhub
+## Docker Hub
 
-### Login into Dockerhub account 
+### Login into Docker Hub account 
 
 ```
 docker login
