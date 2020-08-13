@@ -480,6 +480,12 @@ After checking the information aboce that is important to get the services start
 sudo systemctl enable docker
 ```
 
+Right after enabling Docker, then just get the Docker Deamon started:
+
+```
+sudo systemctl start docker
+```
+
 ## Backing Up the Docker Swarm Cluster
 
 ```
