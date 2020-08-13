@@ -403,10 +403,19 @@ Pulling the iage from Docker Hub again:
 docker pull hub1/alpine:1
 ```
 
-## Docker Linux auto run check
+## Docker Linux management
+
+
+> checking Dokcer Status
 
 ```
 systemctl status docker
+```
+
+> stopping Docker service
+
+```
+sudo systemctl disable docker
 ```
 
 ## Release History
