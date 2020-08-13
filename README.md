@@ -341,6 +341,17 @@ Pulling an image from `Dokcer Hub`:
 docker pull alpine
 ```
 
+Check for the existing images:
+
+```
+docker images
+
+Expected result:
+
+REPOSITORY             TAG                 IMAGE ID            CREATED             SIZE
+alpine                 latest              a24bb4013296        1 minute ago        5.57MB
+```
+
 ## Release History
 
 * 0.2.1
