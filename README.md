@@ -431,6 +431,13 @@ sudo systemctl enable docker
 * Dokcer Trusted Registry (UTR)
 * Container volume data
 
+## Analyzing Dokcer erros
+
+Adding Docker to the user group:
+
+```
+sudo usermod -aG docker $USER 
+```
 
 ## Backing Up the Docker Swarm Cluster
 
