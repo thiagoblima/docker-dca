@@ -474,6 +474,12 @@ Server: Docker Engine - Community
   Version:          0.18.0
 ```
 
+After checking the information aboce that is important to get the services started through the OS command:
+
+```
+sudo systemctl enable docker
+```
+
 ## Backing Up the Docker Swarm Cluster
 
 ```
