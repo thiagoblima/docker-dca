@@ -403,6 +403,12 @@ Pulling the iage from Docker Hub again:
 docker pull hub1/alpine:1
 ```
 
+## Docker Linux auto run check
+
+```
+systemctl status docker
+```
+
 ## Release History
 
 * 0.2.1
