@@ -352,6 +352,14 @@ REPOSITORY             TAG                 IMAGE ID            CREATED          
 alpine                 latest              a24bb4013296        1 minute ago        5.57MB
 ```
 
+Adding a tag to a specific image:
+
+```
+docker tag a24
+```
+
+> Notice you only need to have the only first three digits of the Image ID
+
 ## Release History
 
 * 0.2.1
