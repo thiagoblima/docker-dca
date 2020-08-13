@@ -355,7 +355,7 @@ alpine                 latest              a24bb4013296        1 minute ago     
 Adding a tag to a specific image:
 
 ```
-docker tag a24
+docker tag a24 hub1
 ```
 
 > Notice you only need to have the only first three digits of the Image ID
