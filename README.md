@@ -424,6 +424,13 @@ sudo systemctl disable docker
 sudo systemctl enable docker
 ```
 
+## Backing Up Docker
+
+* Docker Swarm cluster
+* Universal Control Pane (UCP)
+* Dokcer Trusted Registry (UTR)
+* Container volume data
+
 ## Release History
 
 * 0.2.1
