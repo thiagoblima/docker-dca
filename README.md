@@ -441,6 +441,13 @@ cp -R swarm /tmp
 systemctl start docker
 ```
 
+## Dokcer Swarm
+
+Initializing a new manager
+
+```
+docker swarm init
+```
 
 
 ## Release History
