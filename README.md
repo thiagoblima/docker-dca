@@ -375,6 +375,12 @@ hub1/alpine            2                   a24bb4013296        2 months ago     
 hub1/alpine            3                   a24bb4013296        2 months ago        5.57MB
 ```
 
+Pushing to Docker Hub:
+
+```
+docker push hub1/alpine
+```
+
 ## Release History
 
 * 0.2.1
