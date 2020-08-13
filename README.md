@@ -431,6 +431,18 @@ sudo systemctl enable docker
 * Dokcer Trusted Registry (UTR)
 * Container volume data
 
+
+## Backing Up the Docker Swarm Cluster
+
+```
+systemctl stop docker
+cd /var/lib/docker
+cp -R swarm /tmp
+systemctl start docker
+```
+
+
+
 ## Release History
 
 * 0.2.1
