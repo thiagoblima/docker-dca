@@ -441,7 +441,7 @@ cp -R swarm /tmp
 systemctl start docker
 ```
 
-## Docker Swarm
+## Docker Swarm Cluster
 
 Initializing a new manager:
 
