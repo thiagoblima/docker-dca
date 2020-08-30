@@ -517,7 +517,7 @@ vih0ywzgzyknt4ujzf1918dog *   DOCKER-MCH          Ready               Active    
 Adding a Adding another worker or leader:
 
 ```
-docker swarm join-token <ARGUMENT>
+docker swarm join-token manager
 ```
 
 > basically it might be a leader or worker
