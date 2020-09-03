@@ -520,7 +520,7 @@ Adding a Adding another worker or leader:
 docker swarm join-token manager
 ```
 
-> basically it might be a leader or worker
+> basically it might be a leader or worker (depends on the other commands listed bellow)
 
 ## Release History
 
