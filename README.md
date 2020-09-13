@@ -703,6 +703,18 @@ ba713fdf1042        nginx:latest                "/docker-entrypoint.…"   2 hou
 afbefaf2666a        nginx:latest                "/docker-entrypoint.…"   2 hours ago         Up 2 hours               80/tcp                   webapp1.2.tbzpas9n2nm26
 ```
 
+You should run a command to find your IP address to be able to run *Docker Swarm Visualizer* in your host:
+
+```
+ip addr
+```
+
+Then, open a web browser page and then use your localhost or ip on the specfic port Docker Swarm Visualizer is listening.
+
+if everything works fine your should able to see on the given pot (in my case localhost:8080) this:
+
+![](assets/docker-swarm-visualizer.png)
+
 ## Release History
 
 * 0.2.1
