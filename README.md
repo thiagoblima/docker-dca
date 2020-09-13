@@ -681,6 +681,26 @@ Initializing `Docker Swarm Visualizer`:
 
 ```
 docker run -it -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer
+
+Result:
+2d63f18b762abaaf945a7d8yrh564hd8b5f3ade4cfb0d3ededfc95c
+```
+
+By running `docker ps` command you should be able to visualize  docker/visualizer instance running as follows:
+
+```
+docker ps
+
+Result:
+
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS                   PORTS                    NAMES
+2d63f18b762a        dockersamples/visualizer    "npm start"              5 minutes ago       Up 5 minutes (healthy)   0.0.0.0:8080->8080/tcp   blissful_hermann
+924909c0b27d        nginx:latest                "/docker-entrypoint.…"   2 hours ago         Up 2 hours               80/tcp                   webapp1.3.vhb09szgaukh6
+899f66093064        nginx:latest                "/docker-entrypoint.…"   2 hours ago         Up 2 hours               80/tcp                   webapp1.5.6ffqfnvpa6zas
+eb3bf0daeb69        nginx:latest                "/docker-entrypoint.…"   2 hours ago         Up 2 hours               80/tcp                   webapp1.6.p2uxquta91mvd
+8e91142de205        nginx:latest                "/docker-entrypoint.…"   2 hours ago         Up 2 hours               80/tcp                   webapp1.4.yvzepokn792jt
+ba713fdf1042        nginx:latest                "/docker-entrypoint.…"   2 hours ago         Up 2 hours               80/tcp                   webapp1.1.wgxafpbykxsue
+afbefaf2666a        nginx:latest                "/docker-entrypoint.…"   2 hours ago         Up 2 hours               80/tcp                   webapp1.2.tbzpas9n2nm26
 ```
 
 ## Release History
