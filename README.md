@@ -860,7 +860,7 @@ docker inspect 2d6 | grep IPAddress
 
 #### Understanding stacks and stack files
 
-![](docker-stack.png)
+![](assets/docker-stack.png)
 
 ## Release History
 
