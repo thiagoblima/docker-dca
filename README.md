@@ -662,6 +662,10 @@ Link to dive into the subject under discussion:
 
 > https://docs.docker.com/engine/swarm/admin_guide/
 
+To understand the consensus of the equation of which majority nodes you need in order to take the primary node here follows documentation:
+
+> https://docs.docker.com/engine/swarm/raft/
+
 ## Managing Docker Swarm
 
 Initializing `Docker Swarm Visualizer`:
