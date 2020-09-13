@@ -651,7 +651,11 @@ Please enter unlock key:
 You should paste the token once generated as listed on commands above.
 ```
 
+Generating another Docker Swarm Cluster unlock key:
 
+```
+docker swarm unlock-key
+```
 
 ## Release History
 
