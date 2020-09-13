@@ -549,6 +549,12 @@ Taking a look at the official Dokcer Swarm documentation in order to understand 
 
 > https://docs.docker.com/engine/swarm/key-concepts/#nodes
 
+Creating services and nodes example:
+
+```
+docker service create --name webapp1 --replicas=6 nginx
+```
+
 
 ## Release History
 
