@@ -958,6 +958,15 @@ overall progress: 6 out of 20 tasks
 20/20: running   [==================================================>] 
 ```
 
+Checking now how the service is with the just updated 20 replicas:
+
+```
+docker service ls                                
+ID                  NAME                MODE                REPLICAS                IMAGE               PORTS
+mg5kr5hva4fn        mystack_redis       replicated          6/20 (max 1 per node)   redis:alpine        *:80->80/tcp
+7ixe7benr2r6        webapp1             replicated          6/6                     nginx:latest        
+```
+
 ## Release History
 
 * 0.2.1
