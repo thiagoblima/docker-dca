@@ -668,6 +668,9 @@ To understand the consensus of the equation of which majority nodes you need in 
 
 ## Managing Docker Swarm
 
+Take a look at the official repository at:
+> https://github.com/dockersamples/docker-swarm-visualizer
+
 In order to visualize more information about Docker you might run:
 
 ```
@@ -679,9 +682,6 @@ Initializing `Docker Swarm Visualizer`:
 ```
 docker run -it -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer
 ```
-
-Take a look at the official repository at:
-> https://github.com/dockersamples/docker-swarm-visualizer
 
 ## Release History
 
