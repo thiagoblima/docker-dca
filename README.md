@@ -829,6 +829,25 @@ Result:
 "Replicas": 6
 ```
 
+As you could also run a command in order to achieve a specific *container* such as:
+
+```
+docker ps
+
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS                  PORTS                    NAMES
+2d63f18b762a        dockersamples/visualizer    "npm start"              14 hours ago        Up 14 hours (healthy)   0.0.0.0:8080->8080/tcp   blissful_hermann
+924909c0b27d        nginx:latest                "/docker-entrypoint.…"   16 hours ago        Up 16 hours             80/tcp                   webapp1.3.vhb09szgauszac
+899f66093064        nginx:latest                "/docker-entrypoint.…"   16 hours ago        Up 16 hours             80/tcp                   webapp1.5.6ffqfnvpa6za1o
+eb3bf0daeb69        nginx:latest                "/docker-entrypoint.…"   16 hours ago        Up 16 hours             80/tcp                   webapp1.6.p2uxquta91mvdl
+8e91142de205        nginx:latest                "/docker-entrypoint.…"   16 hours ago        Up 16 hours             80/tcp                   webapp1.4.yvzepokn792jt2
+ba713fdf1042        nginx:latest                "/docker-entrypoint.…"   16 hours ago        Up 16 hours             80/tcp                   webapp1.1.wgxafpbykxsuer
+afbefaf2666a        nginx:latest                "/docker-entrypoint.…"   16 hours ago        Up 16 hours             80/tcp                   webapp1.2.tbzpas9n2nm26b
+
+docker inspect 2d4
+
+As result you should sse a JSON with many arrays and properties regarding the given container.
+```
+
 ## Release History
 
 * 0.2.1
