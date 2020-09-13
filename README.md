@@ -911,6 +911,14 @@ AME                SERVICES            ORCHESTRATOR
 mystack             1                   Swarm
 ```
 
+Checking the stack services:
+
+```
+docker stack services mystack
+ID                  NAME                MODE                REPLICAS               IMAGE               PORTS
+mg5kr5hva4fn        mystack_redis       replicated          6/6 (max 1 per node)   redis:alpine        *:80->80/tcp
+```
+
 ## Release History
 
 * 0.2.1
