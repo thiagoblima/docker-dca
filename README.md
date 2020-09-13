@@ -656,6 +656,12 @@ docker swarm unlock-key --rotate
 Result: A new cluster key is going to be generated, replacing the old one once generated.
 ```
 
+#### Why Quorum is important
+
+Link to dive into the subject under discussion:
+
+> https://docs.docker.com/engine/swarm/admin_guide/
+
 ## Managing Docker Swarm
 
 Initializing `Docker Swarm Visualizer`:
