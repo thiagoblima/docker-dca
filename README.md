@@ -919,6 +919,17 @@ ID                  NAME                MODE                REPLICAS            
 mg5kr5hva4fn        mystack_redis       replicated          6/6 (max 1 per node)   redis:alpine        *:80->80/tcp
 ```
 
+#### Manipulate a running stack of services
+
+Checking the running service on the cluster:
+
+```
+docker service ls     
+ID                  NAME                MODE                REPLICAS               IMAGE               PORTS
+mg5kr5hva4fn        mystack_redis       replicated          6/6 (max 1 per node)   redis:alpine        *:80->80/tcp
+7ixe7benr2r6        webapp1             replicated          6/6                    nginx:latest        
+```
+
 ## Release History
 
 * 0.2.1
