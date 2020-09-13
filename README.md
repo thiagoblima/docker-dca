@@ -579,6 +579,22 @@ ID                  NAME                MODE                REPLICAS            
 7ixe7benr2r6        webapp1             replicated          6/6                 nginx:latest        
 ```
 
+By running docker ps command you're able to see the replicas running in the cluster:
+
+```
+docker ps         
+
+Result:
+
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS                 PORTS                    NAMES
+93513eab195c        nginx:latest                "/docker-entrypoint.…"   36 minutes ago      Up 36 minutes          80/tcp                   webapp1.5.hwtuowagax01e2
+fcd661f1056e        nginx:latest                "/docker-entrypoint.…"   36 minutes ago      Up 36 minutes          80/tcp                   webapp1.6.0uhf6s63gbn2nwo
+48d9e0360eb3        nginx:latest                "/docker-entrypoint.…"   36 minutes ago      Up 36 minutes          80/tcp                   webapp1.1.kiac9py36u8fjmu
+d2c5b4df0eb0        nginx:latest                "/docker-entrypoint.…"   36 minutes ago      Up 36 minutes          80/tcp                   webapp1.2.we1gzzx6oas5ft3
+3d5f8d2fadf1        nginx:latest                "/docker-entrypoint.…"   36 minutes ago      Up 36 minutes          80/tcp                   webapp1.3.qtdx2lsi9kvf5of
+9a60a229d170        nginx:latest                "/docker-entrypoint.…"   36 minutes ago      Up 36 minutes          80/tcp                   webapp1.4.3vpninag5qtmda3
+```
+
 ## Release History
 
 * 0.2.1
