@@ -868,6 +868,33 @@ Docker services nodes representation:
 
 ![](assets/docker-stack-services.png)
 
+Initializing the stack file, composed based _yml_:
+
+> file example of a stack file with replicas - dokcer-stack.yml
+
+```
+version: "3.8"
+services:
+  redis:
+    image: redis:alpine
+    deploy:
+      replicas: 6
+      placement:
+        max_replicas_per_node: 1
+      update_config:
+        parallelism: 2
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "80:80"
+    networks: 
+      - webnet
+networks:
+  webnet:
+    name: webnet
+```
+
 
 ## Release History
 
