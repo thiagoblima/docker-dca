@@ -553,6 +553,25 @@ Creating services and nodes example:
 
 ```
 docker service create --name webapp1 --replicas=6 nginx
+
+Result:
+
+docker service create --name webapp1 --replicas=6 nginx
+7ixe7benr2r6c85o8xyboof3x
+overall progress: 6 out of 6 tasks 
+1/6: running   [==================================================>] 
+2/6: running   [==================================================>] 
+3/6: running   [==================================================>] 
+4/6: running   [==================================================>] 
+5/6: running   [==================================================>] 
+6/6: running   [==================================================>] 
+verify: Service converged 
+```
+
+ for checking out the services you`ve created just run:
+
+```
+docker service ls
 ```
 
 
