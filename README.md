@@ -611,6 +611,17 @@ In case you need to enable autolock in a existing Docker Swarm Cluster, you shou
 
 ```
 docker swarm update --atulock=true
+
+Result:
+
+Swarm updated.
+To unlock a swarm manager after it restarts, run the `docker swarm unlock`
+command and provide the following key:
+
+    SWMKEY-1-lIEE4UmB6oxuxnomsdfsdfsfezHzZS4keyK96QDkast2A0K3ytjg
+
+Please remember to store this key in a password manager, since without it you
+will not be able to restart the manager.
 ```
 
 ## Release History
