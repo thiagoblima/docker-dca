@@ -541,9 +541,14 @@ OR
 docker swarm join-token worker
 ```
 
-
-
 > basically it might be a leader or worker (depends on the other commands listed bellow)
+
+#### Nodes, services, containers and tasks:
+
+Taking a look at the official Dokcer Swarm documentation in order to understand better Docker Nodes through the link:
+
+> https://docs.docker.com/engine/swarm/key-concepts/#nodes
+
 
 ## Release History
 
