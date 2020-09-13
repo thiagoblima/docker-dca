@@ -817,7 +817,6 @@ Returns an array of objects, or the dokcer machines you have working, each one w
         }
     }
 ]
-
 ```
 
 ## Release History
