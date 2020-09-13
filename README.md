@@ -858,6 +858,10 @@ docker inspect 2d6 | grep IPAddress
                     "IPAddress": "170.1.0.9~,
 ```
 
+#### Understanding stacks and stack files
+
+![](docker-stack.png)
+
 ## Release History
 
 * 0.2.1
