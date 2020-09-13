@@ -895,6 +895,13 @@ networks:
     name: webnet
 ```
 
+To run this file you should use *docker stack deploy* as follows:
+
+```
+docker stack deploy --compose-file docker-stack.yml mystack
+Creating network webnet
+Creating service mystack_redis
+```
 
 ## Release History
 
