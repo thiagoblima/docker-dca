@@ -819,6 +819,16 @@ Returns an array of objects, or the dokcer machines you have working, each one w
 ]
 ```
 
+Running custom command on bash:
+
+```
+docker inspect webapp1 | grep Replicas
+
+Result:
+
+ "Replicas": 6
+```
+
 ## Release History
 
 * 0.2.1
