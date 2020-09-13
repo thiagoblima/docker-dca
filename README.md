@@ -595,6 +595,13 @@ d2c5b4df0eb0        nginx:latest                "/docker-entrypoint.…"   36 mi
 9a60a229d170        nginx:latest                "/docker-entrypoint.…"   36 minutes ago      Up 36 minutes          80/tcp                   webapp1.4.3vpninag5qtmda3
 ```
 
+
+#### Locking a swarm cluster
+
+Check out the Docker Swarm Logking reference:
+
+> https://docs.docker.com/engine/swarm/swarm_manager_locking/
+
 ## Release History
 
 * 0.2.1
