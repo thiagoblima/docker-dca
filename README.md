@@ -642,6 +642,16 @@ Result:
 Error response from daemon: Swarm is encrypted and needs to be unlocked before it can be used. Please use "docker swarm unlock" to unlock it.
 ```
 
+Using the encrypted key to access the nodes on *Dokcer Swarm Cluster*:
+
+```
+docker swarm unlock                
+Please enter unlock key: 
+
+You should paste the token once generated as listed on commands above.
+```
+
+
 
 ## Release History
 
