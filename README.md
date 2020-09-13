@@ -568,12 +568,16 @@ overall progress: 6 out of 6 tasks
 verify: Service converged 
 ```
 
- for checking out the services you`ve created just run:
+ For checking out the services you`ve created just run:
 
 ```
-docker service ls
-```
+docker service ls  
 
+Result:
+
+ID                  NAME                MODE                REPLICAS            IMAGE               PORTS
+7ixe7benr2r6        webapp1             replicated          6/6                 nginx:latest        
+```
 
 ## Release History
 
