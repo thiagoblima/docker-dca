@@ -661,6 +661,8 @@ You can also rotate a security key for security reasons by running:
 
 ```
 docker swarm unlock-key --rotate
+
+Result: A new cluster key is going to be generated, replacing the old one once generated.
 ```
 
 ## Release History
