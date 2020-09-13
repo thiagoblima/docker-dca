@@ -607,6 +607,11 @@ In case you're creating a new swarm cluster it's good to go with the auto enabli
 docker swarm init --autolock
 ```
 
+In case you need to enable autolock in a existing Docker Swarm Cluster, you should run the command:
+
+```
+docker swarm update --atulock=true
+```
 
 ## Release History
 
