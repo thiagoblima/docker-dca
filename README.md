@@ -848,6 +848,16 @@ docker inspect 2d4
 As result you should sse a JSON with many arrays and properties regarding the given container.
 ```
 
+Running a specific *IPAddress* with _docker inspect_:
+
+```
+docker inspect 2d6 | grep IPAddress
+
+ "SecondaryIPAddresses": null,
+            "IPAddress": "170.1.0.9",
+                    "IPAddress": "170.1.0.9~,
+```
+
 ## Release History
 
 * 0.2.1
