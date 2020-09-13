@@ -715,6 +715,14 @@ if everything works fine your should able to see on the given pot (in my case lo
 
 ![](assets/docker-swarm-visualizer.png)
 
+#### Analyzing Services with Docker Inspect
+
+by running `docker inspect <PID | NAME> you're able to visualize a *JSON* with all the system properties running over the container.
+
+```
+docker inspect webapp1
+```
+
 ## Release History
 
 * 0.2.1
