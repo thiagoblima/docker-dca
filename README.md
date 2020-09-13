@@ -624,6 +624,25 @@ Please remember to store this key in a password manager, since without it you
 will not be able to restart the manager.
 ```
 
+Now if you restart Docker it's going to ask you the token, because your nodes have been encrypted.
+
+Restart Docker through the command (it may change according to your operational system):
+
+```
+sudo systemctl restart docker
+```
+
+After restarting it run:
+
+```
+docker node ls
+
+Result:
+
+Error response from daemon: Swarm is encrypted and needs to be unlocked before it can be used. Please use "docker swarm unlock" to unlock it.
+```
+
+
 ## Release History
 
 * 0.2.1
