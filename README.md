@@ -668,6 +668,12 @@ To understand the consensus of the equation of which majority nodes you need in 
 
 ## Managing Docker Swarm
 
+In order to visualize more information about Docker you might run:
+
+```
+docker info |more 
+```
+
 Initializing `Docker Swarm Visualizer`:
 
 ```
