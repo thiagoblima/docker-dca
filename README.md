@@ -930,6 +930,34 @@ mg5kr5hva4fn        mystack_redis       replicated          6/6 (max 1 per node)
 7ixe7benr2r6        webapp1             replicated          6/6                    nginx:latest        
 ```
 
+Updating the number of replicas on thegiven stack:
+
+```
+docker service update --replicas=20 mystack_redis 
+mystack_redis
+overall progress: 6 out of 20 tasks 
+1/20: no suitable node (max replicas per node limit exceed) 
+2/20: no suitable node (max replicas per node limit exceed) 
+3/20: no suitable node (max replicas per node limit exceed) 
+4/20: no suitable node (max replicas per node limit exceed) 
+5/20: no suitable node (max replicas per node limit exceed) 
+6/20: no suitable node (max replicas per node limit exceed) 
+7/20: running   [==================================================>] 
+8/20: running   [==================================================>] 
+9/20: running   [==================================================>] 
+10/20: no suitable node (max replicas per node limit exceed) 
+11/20: no suitable node (max replicas per node limit exceed) 
+12/20: no suitable node (max replicas per node limit exceed) 
+13/20: no suitable node (max replicas per node limit exceed) 
+14/20: running   [==================================================>] 
+15/20: running   [==================================================>] 
+16/20: no suitable node (max replicas per node limit exceed) 
+17/20: no suitable node (max replicas per node limit exceed) 
+18/20: no suitable node (max replicas per node limit exceed) 
+19/20: no suitable node (max replicas per node limit exceed) 
+20/20: running   [==================================================>] 
+```
+
 ## Release History
 
 * 0.2.1
