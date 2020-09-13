@@ -903,6 +903,14 @@ Creating network webnet
 Creating service mystack_redis
 ```
 
+To see your stack you can also use this command:
+
+```
+docker stack ls
+AME                SERVICES            ORCHESTRATOR
+mystack             1                   Swarm
+```
+
 ## Release History
 
 * 0.2.1
