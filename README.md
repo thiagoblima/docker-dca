@@ -657,6 +657,12 @@ Generating another Docker Swarm Cluster unlock key:
 docker swarm unlock-key
 ```
 
+You can also rotate a security key for security reasons by running:
+
+```
+docker swarm unlock-key --rotate
+```
+
 ## Release History
 
 * 0.2.1
