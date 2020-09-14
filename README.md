@@ -1142,7 +1142,25 @@ docker service logs -f webserver2
 
 Reference 
 
->https://docs.docker.com/engine/swarm/manage-nodes/
+> https://docs.docker.com/engine/swarm/manage-nodes/
+
+Inspecting labels:
+
+```
+docker node inspect docker-desktop | more
+[
+    {
+        "ID": "vih0ywzgzyknt4u2342fdsfsdfs918dog",
+        "Version": {
+            "Index": 1899
+        },
+        "CreatedAt": "2020-08-13T05:38:44.1920227Z",
+        "UpdatedAt": "2020-09-14T01:36:40.317647067Z",
+        "Spec": {
+            "Labels": {
+                "prio1": ""
+            },
+```
 
 ## Release History
 
