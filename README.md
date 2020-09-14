@@ -1087,6 +1087,16 @@ vih0ywzgzykn: running   [==================================================>]
 verify: Service converged 
 ```
 
+Listing the new `global-service`:
+
+```
+docker service ls
+ID                  NAME                MODE                REPLICAS                  IMAGE               PORTS
+b713497n94hko        global-service      global              1/1                       nginx:latest        
+mg567hb5hva4f        mystack_redis       replicated          20/20 (max 20 per node)   redis:alpine        *:80->80/tcp, *:8080->8080/tcp
+7ixe72vcvcnr2        webapp1             replicated          6/6                       nginx:latest        
+```
+
 ## Release History
 
 * 0.2.1
