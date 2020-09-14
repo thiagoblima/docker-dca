@@ -967,6 +967,12 @@ mg5kr5hva4fn        mystack_redis       replicated          6/20 (max 1 per node
 7ixe7benr2r6        webapp1             replicated          6/6                     nginx:latest        
 ```
 
+#### Modifying network ports
+
+Reference:
+
+> https://docs.docker.com/engine/reference/commandline/service_update/
+
 ## Release History
 
 * 0.2.1
