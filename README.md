@@ -1077,6 +1077,16 @@ Reference:
 Reference of docker service create:
 > https://docs.docker.com/engine/reference/commandline/service_create/
 
+Deploying a glogal service:
+
+```
+docker service create --mode global --name global-service nginx
+b73z97n94hko123a1xb9r
+overall progress: 1 out of 1 tasks 
+vih0ywzgzykn: running   [==================================================>] 
+verify: Service converged 
+```
+
 ## Release History
 
 * 0.2.1
