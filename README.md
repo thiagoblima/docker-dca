@@ -1131,6 +1131,12 @@ Running a log command for a specific service/webserver:
 docker service logs webserver2
 ```
 
+For realtime logs include the `-f` flag:
+
+```
+docker service logs -f webserver2
+```
+
 ## Release History
 
 * 0.2.1
