@@ -1069,6 +1069,11 @@ docker volume ls
 local               redis_volumes
 ```
 
+#### Replicated vs global services
+
+Reference: 
+> https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/
+
 ## Release History
 
 * 0.2.1
