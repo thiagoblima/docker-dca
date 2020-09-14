@@ -1014,6 +1014,15 @@ docker service inspect mystack_redis | grep 8080
                     "PublishedPort": 8080,
 ```
 
+Checking out the number of services are up:
+
+```
+docker service ls
+ID                  NAME                MODE                REPLICAS                  IMAGE               PORTS
+mg5kr5hva4fn        mystack_redis       replicated          20/20 (max 20 per node)   redis:alpine        *:80->80/tcp, *:8080->8080/tcp
+7ixe7benr2r6        webapp1             replicated          6/6                       nginx:latest        
+```
+
 #### Mounting volumes
 
 
