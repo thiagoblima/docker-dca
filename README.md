@@ -1162,6 +1162,10 @@ docker node inspect docker-desktop | more
             },
 ```
 
+Dokcer Networking with server:
+
+![](assets/docker-newtworking.png)
+
 ## Release History
 
 * 0.2.1
