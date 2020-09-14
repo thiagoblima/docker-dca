@@ -1097,6 +1097,12 @@ mg567hb5hva4f        mystack_redis       replicated          20/20 (max 20 per n
 7ixe72vcvcnr2        webapp1             replicated          6/6                       nginx:latest        
 ```
 
+## Troubleshooting Docker Swarm
+
+Reference:
+
+> https://docs.docker.com/engine/reference/commandline/service_logs/
+
 ## Release History
 
 * 0.2.1
