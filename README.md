@@ -1103,6 +1103,16 @@ Reference:
 
 > https://docs.docker.com/engine/reference/commandline/service_logs/
 
+Creating a new web server on  port 3000 internally and 80 externally:
+
+```
+docker service create --name webserver2 -p3000:80 httpd
+17y72x1mocl4xpd37wew1q36j
+overall progress: 1 out of 1 tasks 
+1/1: running   [==================================================>] 
+verify: Service converged 
+```
+
 ## Release History
 
 * 0.2.1
