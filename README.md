@@ -1014,6 +1014,12 @@ docker service inspect mystack_redis | grep 8080
                     "PublishedPort": 8080,
 ```
 
+#### Mounting volumes
+
+Reference:
+
+> https://docs.docker.com/docker-hub/
+
 ## Release History
 
 * 0.2.1
