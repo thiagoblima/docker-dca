@@ -1074,6 +1074,9 @@ local               redis_volumes
 Reference: 
 > https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/
 
+Reference of docker service create:
+> https://docs.docker.com/engine/reference/commandline/service_create/
+
 ## Release History
 
 * 0.2.1
