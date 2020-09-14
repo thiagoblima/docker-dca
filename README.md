@@ -1122,7 +1122,7 @@ ID                  NAME                MODE                REPLICAS            
 3df5kr5hva4fn        mystack_redis       replicated          20/20 (max 20 per node)   redis:alpine        *:80->80/tcp, *:8080->8080/tcp
 gt6sajlsdqwds        tender_meitner      replicated          0/1                       webserver:2         
 71dxe7benr2r6        webapp1             replicated          6/6                       nginx:latest        
-vgt72x1mocl4d       webserver2          replicated          1/1                       httpd:latest        *:3000->80/tcp
+vgt72x1mocl4d        webserver2          replicated          1/1                       httpd:latest        *:3000->80/tcp
 ```
 
 ## Release History
