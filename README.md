@@ -1125,6 +1125,12 @@ gt6sajlsdqwds        tender_meitner      replicated          0/1                
 vgt72x1mocl4d        webserver2          replicated          1/1                       httpd:latest        *:3000->80/tcp
 ```
 
+Running a log command for a specific service/webserver:
+
+```
+docker service logs webserver2
+```
+
 ## Release History
 
 * 0.2.1
