@@ -1054,6 +1054,14 @@ overall progress: 20 out of 20 tasks
 verify: Service converged 
 ```
 
+Inspecting though `docker service inspect` command:
+
+```
+docker service inspect mystack_redis | grep vol
+                            "Type": "volume",
+                            "Source": "redis_volumes",
+```
+
 ## Release History
 
 * 0.2.1
