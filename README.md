@@ -1137,6 +1137,13 @@ For realtime logs include the `-f` flag:
 docker service logs -f webserver2
 ```
 
+
+#### Using Labels
+
+Reference 
+
+>https://docs.docker.com/engine/swarm/manage-nodes/
+
 ## Release History
 
 * 0.2.1
