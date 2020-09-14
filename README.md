@@ -1062,6 +1062,13 @@ docker service inspect mystack_redis | grep vol
                             "Source": "redis_volumes",
 ```
 
+Listing the Docker volumes:
+
+```
+docker volume ls
+local               redis_volumes
+```
+
 ## Release History
 
 * 0.2.1
