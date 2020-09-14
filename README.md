@@ -1002,6 +1002,18 @@ overall progress: 20 out of 20 tasks
 verify: Service converged 
 ```
 
+Checking the update: 
+
+```
+docker service inspect mystack_redis | grep 8080
+                        "TargetPort": 8080,
+                        "PublishedPort": 8080,
+                        "TargetPort": 8080,
+                        "PublishedPort": 8080,
+                    "TargetPort": 8080,
+                    "PublishedPort": 8080,
+```
+
 ## Release History
 
 * 0.2.1
