@@ -1162,7 +1162,7 @@ docker node inspect docker-desktop | more
             },
 ```
 
-Dokcer Networking with server:
+Docker Networking communication:
 
 ![](assets/docker-newtworking.png)
 
